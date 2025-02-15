@@ -6,21 +6,21 @@ const translations = {
     title: "iBeep",
     subtitle: "Smart Auto Monitoring with QR Codes",
     description: "Track, manage, and secure your vehicles with ease using our innovative QR code system.",
-    cta: "Get Started",
+    cta: "Buy Now",
   },
   ro: {
     title: "iBeep",
     subtitle: "Monitorizare Auto Inteligentă cu Coduri QR",
     description:
       "Urmăriți, gestionați și securizați vehiculele cu ușurință folosind sistemul nostru inovator de coduri QR.",
-    cta: "Începeți Acum",
+    cta: "Cumpara Acum",
   },
   ru: {
     title: "iBeep",
     subtitle: "Умный Мониторинг Авто с QR-кодами",
     description:
       "Отслеживайте, управляйте и защищайте свои автомобили с легкостью, используя нашу инновационную систему QR-кодов.",
-    cta: "Начать",
+    cta: "Купить",
   },
 }
 
