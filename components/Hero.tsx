@@ -48,7 +48,7 @@ export default function Hero({ language }: { language: string }) {
             alt="iBeep App Screenshot"
             width={300}
             height={600}
-            className="rounded-lg shadow-2xl mx-auto"
+            className="rounded-lg mx-auto"
           />
         </div>
       </div>
