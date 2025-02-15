@@ -44,7 +44,7 @@ export default function Hero({ language }: { language: string }) {
         </div>
         <div className="md:w-1/2">
           <Image
-            src="/screenlogo.svg"
+            src="/newlogo.svg"
             alt="iBeep App Screenshot"
             width={300}
             height={600}
