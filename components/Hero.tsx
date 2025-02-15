@@ -31,9 +31,9 @@ export default function Hero({ language }: { language: string }) {
     <section className="bg-gradient-to-r from-primary to-secondary text-primary-foreground py-20">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 mb-10 md:mb-0">
-          <h1 className="text-5xl md:text-6xl font-bold mb-4">{t.title}</h1>
-          <h2 className="text-2xl md:text-3xl font-semibold mb-4">{t.subtitle}</h2>
-          <p className="text-xl mb-8">{t.description}</p>
+        <h1 className="text-5xl md:text-6xl font-bold mb-4 text-white">{t.title}</h1>
+        <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-white">{t.subtitle}</h2>
+        <p className="text-xl mb-8 text-white">{t.description}</p>
           <Button
             variant="secondary"
             size="lg"
