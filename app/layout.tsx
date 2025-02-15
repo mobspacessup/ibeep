@@ -1,8 +1,8 @@
 import type React from "react"
 import "./globals.css"
-import { Inter } from "next/font/google"
+import { Poppins } from "next/font/google"
 
-const inter = Inter({ subsets: ["latin"] })
+const inter = Poppins({ subsets: ["latin"], weight: ['100', '200', '300', '400','500','600','700','900'] })
 
 export const metadata = {
   title: "iBeep - Smart Auto Monitoring with QR Codes",
@@ -17,7 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className=<body className="font-sans">
+  {children}
+</body>
+
     </html>
   )
 }

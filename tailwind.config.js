@@ -52,6 +52,9 @@ module.exports = {
           foreground: "hsl(var(--card-foreground))",
         },
       },
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'], // Устанавливаем Poppins как основной шрифт
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
@@ -75,4 +78,3 @@ module.exports = {
   },
   plugins: [require("tailwindcss-animate")],
 }
-
